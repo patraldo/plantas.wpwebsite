@@ -1,0 +1,20 @@
+{
+  "entrypoints": {
+    "products-editor": {
+      "js": [
+        "./products-editor.js"
+      ],
+      "json": [
+        "./products-editor.deps.json"
+      ]
+    },
+    "products-style": {
+      "css": [
+        "./products-style.css"
+      ],
+      "json": [
+        "./products-style.deps.json"
+      ]
+    }
+  }
+}

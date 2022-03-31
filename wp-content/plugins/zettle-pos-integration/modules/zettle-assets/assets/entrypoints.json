@@ -1,0 +1,28 @@
+{
+  "entrypoints": {
+    "admin-scripts": {
+      "js": [
+        "./admin-scripts.js"
+      ],
+      "json": [
+        "./admin-scripts.deps.json"
+      ]
+    },
+    "sync-scripts": {
+      "js": [
+        "./sync-scripts.js"
+      ],
+      "json": [
+        "./sync-scripts.deps.json"
+      ]
+    },
+    "admin": {
+      "css": [
+        "./admin.css"
+      ],
+      "json": [
+        "./admin.deps.json"
+      ]
+    }
+  }
+}

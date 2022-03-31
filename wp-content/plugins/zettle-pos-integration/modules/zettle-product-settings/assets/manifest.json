@@ -1,0 +1,6 @@
+{
+  "./products-editor.js": "./products-editor.js",
+  "./products-editor.json": "./products-editor.deps.json",
+  "./products-style.css": "./products-style.css",
+  "./products-style.json": "./products-style.deps.json"
+}

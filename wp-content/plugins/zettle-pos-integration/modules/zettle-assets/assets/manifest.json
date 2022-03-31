@@ -1,0 +1,8 @@
+{
+  "./admin.css": "./admin.css",
+  "./admin.json": "./admin.deps.json",
+  "./admin-scripts.js": "./admin-scripts.js",
+  "./admin-scripts.json": "./admin-scripts.deps.json",
+  "./sync-scripts.js": "./sync-scripts.js",
+  "./sync-scripts.json": "./sync-scripts.deps.json"
+}

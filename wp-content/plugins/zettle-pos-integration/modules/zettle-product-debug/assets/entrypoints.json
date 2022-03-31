@@ -1,0 +1,20 @@
+{
+  "entrypoints": {
+    "product-debug-modules": {
+      "js": [
+        "./product-debug-modules.js"
+      ],
+      "json": [
+        "./product-debug-modules.deps.json"
+      ]
+    },
+    "product-debug": {
+      "css": [
+        "./product-debug.css"
+      ],
+      "json": [
+        "./product-debug.deps.json"
+      ]
+    }
+  }
+}

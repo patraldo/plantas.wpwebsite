@@ -1,0 +1,6 @@
+{
+  "./product-debug.css": "./product-debug.css",
+  "./product-debug.json": "./product-debug.deps.json",
+  "./product-debug-modules.js": "./product-debug-modules.js",
+  "./product-debug-modules.json": "./product-debug-modules.deps.json"
+}
