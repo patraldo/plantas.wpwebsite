@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Google Listings and Ads plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Google Listings and Ads 1.12.0\n"
+"Project-Id-Version: Google Listings and Ads 1.12.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-listings-and-ads\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-03-29T10:32:31+00:00\n"
+"POT-Creation-Date: 2022-04-01T13:37:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: google-listings-and-ads\n"
@@ -394,12 +394,12 @@ msgid "Account %1$s"
 msgstr ""
 
 #. translators: %1 is the shipping method, %2 is the shipping rate, %3 is the currency (e.g. USD)
-#: src/API/Google/Settings.php:278
+#: src/API/Google/Settings.php:290
 msgid "%1$s - %2$s %3$s"
 msgstr ""
 
 #. translators: %1 is a random 4-digit string, %2 is the rate, %3 is the currency, %4 is the country code
-#: src/API/Google/Settings.php:321
+#: src/API/Google/Settings.php:334
 msgid "[%1$s] Google Listings and Ads generated service - %2$s %3$s to %4$s"
 msgstr ""
 
@@ -2288,12 +2288,10 @@ msgid "My shipping settings are simple. I can manually estimate flat shipping ra
 msgstr ""
 
 #: js/build/index.js:12
-msgid "My shipping settings are complex. I will enter my shipping rates manually in Google Merchant Center."
+msgid "My shipping settings are complex. I will enter my shipping rates and times manually in Google Merchant Center."
 msgstr ""
 
 #: js/build/index.js:12
-#: js/build/index.js:14
-#: js/build/index.js:23
 msgid "I understand that if I don’t set this up manually in <link>Google Merchant Center</link>, my products will be disapproved by Google."
 msgstr ""
 
@@ -2353,16 +2351,6 @@ msgstr ""
 #: js/build/index.js:14
 #: js/build/index.js:23
 msgid "Your shipping times will be shown to potential customers on Google."
-msgstr ""
-
-#: js/build/index.js:14
-#: js/build/index.js:23
-msgid "My shipping settings are simple. I can manually estimate flat shipping times."
-msgstr ""
-
-#: js/build/index.js:14
-#: js/build/index.js:23
-msgid "My shipping settings are complex. I will enter my shipping times manually in Google Merchant Center."
 msgstr ""
 
 #: js/build/index.js:14
