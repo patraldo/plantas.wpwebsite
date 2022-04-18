@@ -5,10 +5,10 @@ namespace Automattic\WooCommerce\GoogleListingsAndAds\API\Site\Controllers\Ads;
 
 use Automattic\WooCommerce\GoogleListingsAndAds\API\Google\AdsCampaign;
 use Automattic\WooCommerce\GoogleListingsAndAds\API\Google\CampaignStatus;
+use Automattic\WooCommerce\GoogleListingsAndAds\API\Google\CampaignType;
 use Automattic\WooCommerce\GoogleListingsAndAds\API\Site\Controllers\BaseController;
 use Automattic\WooCommerce\GoogleListingsAndAds\API\Site\Controllers\CountryCodeTrait;
 use Automattic\WooCommerce\GoogleListingsAndAds\API\TransportMethods;
-use Automattic\WooCommerce\GoogleListingsAndAds\Exception\ExceptionWithResponseData;
 use Automattic\WooCommerce\GoogleListingsAndAds\Google\GoogleHelperAwareInterface;
 use Automattic\WooCommerce\GoogleListingsAndAds\Internal\Interfaces\ISO3166AwareInterface;
 use Automattic\WooCommerce\GoogleListingsAndAds\Proxies\RESTServer;
@@ -105,10 +105,8 @@ class CampaignController extends BaseController implements GoogleHelperAwareInte
 					},
 					$this->ads_campaign->get_campaigns()
 				);
-			} catch ( ExceptionWithResponseData $e ) {
-				return new Response( $e->get_response_data( true ), $e->getCode() ?: 400 );
 			} catch ( Exception $e ) {
-				return new Response( [ 'message' => $e->getMessage() ], $e->getCode() ?: 400 );
+				return $this->response_from_exception( $e );
 			}
 		};
 	}
@@ -136,10 +134,8 @@ class CampaignController extends BaseController implements GoogleHelperAwareInte
 				$campaign = $this->ads_campaign->create_campaign( $fields );
 
 				return $this->prepare_item_for_response( $campaign, $request );
-			} catch ( ExceptionWithResponseData $e ) {
-				return new Response( $e->get_response_data( true ), $e->getCode() ?: 400 );
 			} catch ( Exception $e ) {
-				return new Response( [ 'message' => $e->getMessage() ], $e->getCode() ?: 400 );
+				return $this->response_from_exception( $e );
 			}
 		};
 	}
@@ -166,10 +162,8 @@ class CampaignController extends BaseController implements GoogleHelperAwareInte
 				}
 
 				return $this->prepare_item_for_response( $campaign, $request );
-			} catch ( ExceptionWithResponseData $e ) {
-				return new Response( $e->get_response_data( true ), $e->getCode() ?: 400 );
 			} catch ( Exception $e ) {
-				return new Response( [ 'message' => $e->getMessage() ], $e->getCode() ?: 400 );
+				return $this->response_from_exception( $e );
 			}
 		};
 	}
@@ -200,10 +194,8 @@ class CampaignController extends BaseController implements GoogleHelperAwareInte
 					'message' => __( 'Successfully edited campaign.', 'google-listings-and-ads' ),
 					'id'      => $campaign_id,
 				];
-			} catch ( ExceptionWithResponseData $e ) {
-				return new Response( $e->get_response_data( true ), $e->getCode() ?: 400 );
 			} catch ( Exception $e ) {
-				return new Response( [ 'message' => $e->getMessage() ], $e->getCode() ?: 400 );
+				return $this->response_from_exception( $e );
 			}
 		};
 	}
@@ -223,10 +215,8 @@ class CampaignController extends BaseController implements GoogleHelperAwareInte
 					'message' => __( 'Successfully deleted campaign.', 'google-listings-and-ads' ),
 					'id'      => $deleted_id,
 				];
-			} catch ( ExceptionWithResponseData $e ) {
-				return new Response( $e->get_response_data( true ), $e->getCode() ?: 400 );
 			} catch ( Exception $e ) {
-				return new Response( [ 'message' => $e->getMessage() ], $e->getCode() ?: 400 );
+				return $this->response_from_exception( $e );
 			}
 		};
 	}
@@ -280,6 +270,13 @@ class CampaignController extends BaseController implements GoogleHelperAwareInte
 				'type'              => 'string',
 				'enum'              => CampaignStatus::labels(),
 				'description'       => __( 'Campaign status.', 'google-listings-and-ads' ),
+				'context'           => [ 'view', 'edit' ],
+				'validate_callback' => 'rest_validate_request_arg',
+			],
+			'type'               => [
+				'type'              => 'string',
+				'enum'              => CampaignType::labels(),
+				'description'       => __( 'Campaign type.', 'google-listings-and-ads' ),
 				'context'           => [ 'view', 'edit' ],
 				'validate_callback' => 'rest_validate_request_arg',
 			],

@@ -7,14 +7,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0-rc.2\n"
 "Language: es_MX\n"
 "Project-Id-Version: Themes - Twenty Twenty-Two\n"
 
 #. Author of the theme
+#, gp-priority: low
 msgid "the WordPress team"
 msgstr "el equipo WordPress"
 
 #. Author URI of the theme
+#, gp-priority: low
 msgid "https://wordpress.org/"
 msgstr "https://es-mx.wordpress.org/"

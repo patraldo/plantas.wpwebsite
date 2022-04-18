@@ -10,4 +10,83 @@ License:      GNU General Public License v3 or later
 License URI:  https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain:  storefront
 */
+* Masthead */
+#masthead.site-header  {
+    height: 0px!important;
+    margin-bottom:15px
+}
 
+/* Mobile CSS for Masthead */
+
+@media only screen and (max-width: 320px) {
+
+    #masthead.site-header {
+    height: 60px!important;
+    margin-bottom:20px;
+}
+}
+.site-info a {
+        display: none;
+}
+.site-header{background-color: #9e9d24;
+}
+.site-branding .site-description  {
+        font-family: 'Tangerine';
+        color: #fff;
+        font-size: 50px;
+}
+
+.site-header .site-title  {
+font-family: 'Tangerine', cursive;
+        font-size: 72px;
+        color: #fff;
+}
+
+.site-header .widget_product_search {
+display: none;
+}
+.site-branding {
+font-family: 'Tangerine', cursive;
+font-size: 42px;
+        color: #ffff6b;
+}
+.storefront-primary-navigation,
+.main-navigation ul.menu ul.sub-menu {
+font-family: 'Special Elite', cursive;
+font-size: 20px;
+background-color: #ffff7;
+  color: red;
+}
+.main-navigation ul li a:hover {
+  color: #2a8283;
+}
+/
+body {font-family: 'Special Elite'; font-size:18px;
+color: #69cb74
+
+
+}
+
+h1,h2,h3,h4,h5,h6 {font-family:'Special Elite'; font-weight:700; text-transform:none !important;}
+h1 {font-size:28px;}
+h2 {font-size:26px;}
+h3 {font-size:24px;}
+h4 {font-size:20px;}
+h5 {font-size:18px;}
+h6 {font-size:16px;}
+
+.woocommerce #respond input#submit,.woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+ 
+      background-color: #c8e6c9;
+ 
+}
+
+.woocommerce #respond input#submit:hover,.woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce button.button.alt:active, .woocommerce input.button.alt:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover {
+
+      background-color: #000;
+
+}

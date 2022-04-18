@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Google Listings and Ads plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Google Listings and Ads 1.12.1\n"
+"Project-Id-Version: Google Listings and Ads 1.12.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-listings-and-ads\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-01T13:37:46+00:00\n"
+"POT-Creation-Date: 2022-04-12T13:39:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: google-listings-and-ads\n"
@@ -233,12 +233,12 @@ msgid "Merchant link is not available to accept"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:124
+#: src/API/Google/AdsCampaign.php:123
 msgid "Error retrieving campaigns: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:167
+#: src/API/Google/AdsCampaign.php:166
 msgid "Error retrieving campaign: %s"
 msgstr ""
 
@@ -265,11 +265,11 @@ msgstr ""
 msgid "This campaign has already been deleted"
 msgstr ""
 
-#: src/API/Google/AdsCampaign.php:516
+#: src/API/Google/AdsCampaign.php:517
 msgid "Invalid campaign ID"
 msgstr ""
 
-#: src/API/Google/AdsCampaign.php:533
+#: src/API/Google/AdsCampaign.php:534
 msgid "Invalid geo target location ID"
 msgstr ""
 
@@ -287,17 +287,17 @@ msgstr ""
 msgid "[%1$s] Google Listings and Ads purchase action"
 msgstr ""
 
-#: src/API/Google/AdsConversionAction.php:100
+#: src/API/Google/AdsConversionAction.php:102
 msgid "A conversion action with this name already exists"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsConversionAction.php:108
+#: src/API/Google/AdsConversionAction.php:111
 msgid "Error creating conversion action: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsConversionAction.php:142
+#: src/API/Google/AdsConversionAction.php:148
 msgid "Error retrieving conversion action: %s"
 msgstr ""
 
@@ -394,12 +394,12 @@ msgid "Account %1$s"
 msgstr ""
 
 #. translators: %1 is the shipping method, %2 is the shipping rate, %3 is the currency (e.g. USD)
-#: src/API/Google/Settings.php:290
+#: src/API/Google/Settings.php:292
 msgid "%1$s - %2$s %3$s"
 msgstr ""
 
 #. translators: %1 is a random 4-digit string, %2 is the rate, %3 is the currency, %4 is the country code
-#: src/API/Google/Settings.php:334
+#: src/API/Google/Settings.php:336
 msgid "[%1$s] Google Listings and Ads generated service - %2$s %3$s to %4$s"
 msgstr ""
 
@@ -411,17 +411,17 @@ msgstr ""
 msgid "Unable to insert site verification."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/AccountController.php:154
-#: src/API/Site/Controllers/Google/AccountController.php:152
-#: src/API/Site/Controllers/Jetpack/AccountController.php:129
+#: src/API/Site/Controllers/Ads/AccountController.php:149
+#: src/API/Site/Controllers/Google/AccountController.php:151
+#: src/API/Site/Controllers/Jetpack/AccountController.php:164
 msgid "Successfully disconnected."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/AccountController.php:179
+#: src/API/Site/Controllers/Ads/AccountController.php:174
 msgid "Google Ads Account ID."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/AccountController.php:186
+#: src/API/Site/Controllers/Ads/AccountController.php:181
 msgid "Billing Flow URL."
 msgstr ""
 
@@ -453,101 +453,105 @@ msgid "The upper bound recommended daily budget for a country."
 msgstr ""
 
 #. translators: %s: current date time.
-#: src/API/Site/Controllers/Ads/CampaignController.php:131
+#: src/API/Site/Controllers/Ads/CampaignController.php:129
 msgid "Campaign %s"
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:161
+#: src/API/Site/Controllers/Ads/CampaignController.php:157
 msgid "Campaign is not available."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:190
+#: src/API/Site/Controllers/Ads/CampaignController.php:184
 msgid "Invalid edit data."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:200
+#: src/API/Site/Controllers/Ads/CampaignController.php:194
 msgid "Successfully edited campaign."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:223
+#: src/API/Site/Controllers/Ads/CampaignController.php:215
 msgid "Successfully deleted campaign."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:268
-#: src/API/Site/Controllers/Ads/ReportsController.php:151
+#: src/API/Site/Controllers/Ads/CampaignController.php:258
+#: src/API/Site/Controllers/Ads/ReportsController.php:145
 msgid "ID number."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:274
+#: src/API/Site/Controllers/Ads/CampaignController.php:264
 msgid "Descriptive campaign name."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:282
-#: src/API/Site/Controllers/Ads/ReportsController.php:162
+#: src/API/Site/Controllers/Ads/CampaignController.php:272
+#: src/API/Site/Controllers/Ads/ReportsController.php:156
 msgid "Campaign status."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:288
+#: src/API/Site/Controllers/Ads/CampaignController.php:279
+msgid "Campaign type."
+msgstr ""
+
+#: src/API/Site/Controllers/Ads/CampaignController.php:285
 msgid "Daily budget amount in the local currency."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:295
+#: src/API/Site/Controllers/Ads/CampaignController.php:292
 msgid "Country code of sale country in ISO 3166-1 alpha-2 format."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/CampaignController.php:303
+#: src/API/Site/Controllers/Ads/CampaignController.php:300
 msgid "The locations that an Ads campaign is targeting in ISO 3166-1 alpha-2 format."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:104
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:100
+#: src/API/Site/Controllers/Ads/ReportsController.php:98
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:97
 msgid "Time interval to use for segments in the returned data."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:132
+#: src/API/Site/Controllers/Ads/ReportsController.php:126
 #: src/API/Site/Controllers/MerchantCenter/ProductFeedController.php:92
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:133
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:130
 msgid "Product ID."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:137
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:138
+#: src/API/Site/Controllers/Ads/ReportsController.php:131
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:135
 msgid "Product name."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:156
+#: src/API/Site/Controllers/Ads/ReportsController.php:150
 msgid "Campaign name."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:176
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:152
+#: src/API/Site/Controllers/Ads/ReportsController.php:170
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:149
 msgid "ID of this report segment."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:186
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:162
+#: src/API/Site/Controllers/Ads/ReportsController.php:180
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:159
 msgid "Token to retrieve the next page of results."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:203
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:179
+#: src/API/Site/Controllers/Ads/ReportsController.php:197
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:176
 msgid "Clicks."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:208
-#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:184
+#: src/API/Site/Controllers/Ads/ReportsController.php:202
+#: src/API/Site/Controllers/MerchantCenter/ReportsController.php:181
 msgid "Impressions."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:213
+#: src/API/Site/Controllers/Ads/ReportsController.php:207
 msgid "Sales amount."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:218
+#: src/API/Site/Controllers/Ads/ReportsController.php:212
 msgid "Spend amount."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/ReportsController.php:223
+#: src/API/Site/Controllers/Ads/ReportsController.php:217
 msgid "Conversions."
 msgstr ""
 
@@ -605,39 +609,43 @@ msgstr ""
 msgid "Country is not supported"
 msgstr ""
 
-#: src/API/Site/Controllers/Google/AccountController.php:127
-msgid "Indicate the next page name to map the redirect URI when back from Google authorization."
+#: src/API/Site/Controllers/Google/AccountController.php:126
+msgid "Indicates the next page name mapped to the redirect URL when back from Google authorization."
 msgstr ""
 
-#: src/API/Site/Controllers/Google/AccountController.php:134
+#: src/API/Site/Controllers/Google/AccountController.php:133
 msgid "Indicate the Google account to suggest for authorization."
 msgstr ""
 
-#: src/API/Site/Controllers/Google/AccountController.php:207
+#: src/API/Site/Controllers/Google/AccountController.php:206
 msgid "The URL for making a connection to Google."
 msgstr ""
 
-#: src/API/Site/Controllers/Jetpack/AccountController.php:213
+#: src/API/Site/Controllers/Jetpack/AccountController.php:142
+msgid "Indicates the next page name mapped to the redirect URL when back from Jetpack authorization."
+msgstr ""
+
+#: src/API/Site/Controllers/Jetpack/AccountController.php:253
 msgid "The URL for making a connection to Jetpack (wordpress.com)."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:213
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:212
 msgid "Merchant Center account successfully disconnected."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:227
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:226
 msgid "Merchant Center Account ID."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:234
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:233
 msgid "Is a MCA sub account."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:240
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:239
 msgid "The Merchant Center Account name."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:246
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:245
 msgid "The domain registered with the Merchant Center Account."
 msgstr ""
 
@@ -645,47 +653,47 @@ msgstr ""
 msgid "Action that should be completed after connection."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:132
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:129
 msgid "The Merchant Center account ID."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:138
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:135
 msgid "The phone number associated with the Merchant Center account."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:143
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:140
 msgid "The address associated with the Merchant Center account."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:149
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:146
 msgid "The WooCommerce store address."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:155
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:152
 msgid "Whether the Merchant Center account address is different than the WooCommerce store address."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:160
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:157
 msgid "The errors associated with the WooCommerce address"
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:174
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:171
 msgid "Street-level part of the address."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:179
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:176
 msgid "City, town or commune. May also include dependent localities or sublocalities (e.g. neighborhoods or suburbs)."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:184
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:181
 msgid "Top-level administrative subdivision of the country. For example, a state like California (\"CA\") or a province like Quebec (\"QC\")."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:189
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:186
 msgid "Postal code or ZIP (e.g. \"94043\")."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:194
+#: src/API/Site/Controllers/MerchantCenter/ContactInformationController.php:191
 msgid "CLDR country code (e.g. \"US\")."
 msgstr ""
 
@@ -734,23 +742,23 @@ msgstr ""
 msgid "Page of data to retrieve."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:52
+#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:50
 msgid "Method used to verify the phone number."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:71
+#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:69
 msgid "Two-letter country code (ISO 3166-1 alpha-2) for the phone number."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:77
+#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:75
 msgid "The phone number to verify."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:97
+#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:95
 msgid "The verification ID returned by the /request call."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:103
+#: src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php:101
 msgid "The verification code that was sent to the phone number for validation."
 msgstr ""
 
@@ -830,39 +838,39 @@ msgstr ""
 msgid "New Visibility status for the specified products."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:77
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:81
 msgid "Merchant Center Settings successfully updated."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:92
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:96
 msgid "Whether shipping rate is a simple flat rate or needs to be configured manually in the Merchant Center."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:106
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:110
 msgid "Whether shipping time is a simple flat time or needs to be configured manually in the Merchant Center."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:119
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:123
 msgid "Whether tax rate is destination based or need to be configured manually in the Merchant Center."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:132
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:136
 msgid "Whether the store website is live."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:139
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:143
 msgid "Whether the checkout process is complete and secure."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:149
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:153
 msgid "Whether the payment methods are visible on the website."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:159
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:163
 msgid "Whether the refund policy and terms of service are visible on the website."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:169
+#: src/API/Site/Controllers/MerchantCenter/SettingsController.php:173
 msgid "Whether the phone number, email, and/or address are visible on the website."
 msgstr ""
 
@@ -964,8 +972,16 @@ msgid "Your installation of Google Listings and Ads is incomplete. If you instal
 msgstr ""
 
 #: src/Coupon/CouponSyncer.php:471
-#: src/Product/ProductSyncer.php:347
+#: src/Product/ProductSyncer.php:361
 msgid "Google Merchant Center has not been set up correctly. Please review your configuration."
+msgstr ""
+
+#: src/Exception/AccountReconnect.php:27
+msgid "Please reconnect your Jetpack account."
+msgstr ""
+
+#: src/Exception/AccountReconnect.php:44
+msgid "Please reconnect your Google account."
 msgstr ""
 
 #: src/Exception/ApiNotReady.php:29
@@ -1003,10 +1019,6 @@ msgstr ""
 
 #: src/Exception/MerchantApiException.php:45
 msgid "Unable to update Merchant Center account."
-msgstr ""
-
-#: src/Internal/DependencyManagement/GoogleServiceProvider.php:212
-msgid "Jetpack authorization header error."
 msgstr ""
 
 #: src/Internal/Requirements/GoogleProductFeedValidator.php:84
@@ -1157,6 +1169,18 @@ msgstr ""
 
 #: src/Notes/LeaveReviewActionTrait.php:30
 msgid "Leave a review"
+msgstr ""
+
+#: src/Notes/ReconnectWordPress.php:56
+msgid "Re-connect your store to Google Listings & Ads"
+msgstr ""
+
+#: src/Notes/ReconnectWordPress.php:59
+msgid "Your WordPress.com account has been disconnected from Google Listings & Ads. Connect your WordPress.com account again to ensure your products stay listed on Google through the Google Listings & Ads extension.<br/><br/>If you do not re-connect, any existing listings may be removed from Google."
+msgstr ""
+
+#: src/Notes/ReconnectWordPress.php:67
+msgid "Go to Google Listings & Ads"
 msgstr ""
 
 #. translators: %s number of clicks
@@ -1647,7 +1671,7 @@ msgid "Learn more about supported countries for Google free listings <link>here<
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Learn more about supported countries and currencies for Smart Shopping campaigns <link>here</link>."
+msgid "Learn more about supported countries and currencies for Performance Max campaigns <link>here</link>."
 msgstr ""
 
 #: js/build/index.js:1
@@ -1659,7 +1683,7 @@ msgid "If you’re selling in the US, then eligible free listings can appear in 
 msgstr ""
 
 #: js/build/index.js:1
-msgid "If you’re running a Smart Shopping campaign, your approved products can appear on Google Search, the Shopping tab, Gmail, Youtube and the Google Display Network."
+msgid "If you’re running a Performance Max campaign, your approved products can appear on Google Search, the Shopping tab, Gmail, Youtube and the Google Display Network."
 msgstr ""
 
 #: js/build/index.js:1
@@ -1671,27 +1695,27 @@ msgid "To show your coupons and promotions on Google Shopping listings, make sur
 msgstr ""
 
 #: js/build/index.js:1
-msgid "What are Smart Shopping campaigns?"
+msgid "What are Performance Max campaigns?"
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Smart Shopping campaigns are Google Ads that combine Google’s machine learning with automated bidding and ad placements to maximize conversion value and strategically display your ads to people searching for products like yours, at your given budget. The best part? You only pay when people click on your ad."
+msgid "Performance Max campaigns are Google Ads that combine Google’s machine learning with automated bidding and ad placements to maximize conversion value and strategically display your ads to people searching for products like yours, at your given budget. The best part? You only pay when people click on your ad."
 msgstr ""
 
 #: js/build/index.js:1
-msgid "How much do Smart Shopping campaigns cost?"
+msgid "How much do Performance Max campaigns cost?"
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Smart Shopping campaigns are pay-per-click, meaning you only pay when someone clicks on your ads. You can customize your daily budget in Google Listings & Ads but we recommend starting off with the suggested minimum budget, and you can change this budget at any time."
+msgid "Performance Max campaigns are pay-per-click, meaning you only pay when someone clicks on your ads. You can customize your daily budget in Google Listings & Ads but we recommend starting off with the suggested minimum budget, and you can change this budget at any time."
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Can I run both free listings and Smart Shopping campaigns at the same time?"
+msgid "Can I run both free listings and Performance Max campaigns at the same time?"
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Yes, you can run both at the same time, and we recommend it! In the US, advertisers running free listings and ads together have seen an average of over 50% increase in clicks and over 100% increase in impressions on both free listings and ads on the Shopping tab. Your store is automatically opted into free listings automatically and can choose to run a paid Smart Shopping campaign."
+msgid "Yes, you can run both at the same time, and we recommend it! In the US, advertisers running free listings and ads together have seen an average of over 50% increase in clicks and over 100% increase in impressions on both free listings and ads on the Shopping tab. Your store is automatically opted into free listings automatically and can choose to run a paid Performance Max campaign."
 msgstr ""
 
 #: js/build/index.js:1
@@ -1760,7 +1784,7 @@ msgid "Boost store traffic and sales with Google Ads"
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Create a Smart Shopping campaign to promote products across Google Search, Shopping, Gmail, YouTube, and the Display Network."
+msgid "Create a Performance Max campaign to promote products across Google Search, Shopping, Gmail, YouTube, and the Display Network."
 msgstr ""
 
 #: js/build/index.js:1
@@ -1781,12 +1805,15 @@ msgid "Google Logo"
 msgstr ""
 
 #: js/build/index.js:1
-msgid "Google account"
+msgid "WordPress.com Logo"
+msgstr ""
+
+#: js/build/index.js:1
+msgid "Google"
 msgstr ""
 
 #: js/build/index.js:1
 #: js/build/index.js:24
-#: js/build/index.js:31
 msgid "Google Merchant Center"
 msgstr ""
 
@@ -1795,7 +1822,6 @@ msgid "Required to sync products and list on Google Shopping"
 msgstr ""
 
 #: js/build/index.js:1
-#: js/build/index.js:31
 msgid "Google Ads"
 msgstr ""
 
@@ -1813,10 +1839,6 @@ msgstr ""
 #: js/build/index.js:18
 #: js/build/index.js:31
 msgid "Store address"
-msgstr ""
-
-#: js/build/index.js:1
-msgid "WordPress.com Logo"
 msgstr ""
 
 #: js/build/index.js:1
@@ -2687,7 +2709,7 @@ msgid "New to Google Ads? Get $500 in ad credit when you spend $500 within your 
 msgstr ""
 
 #: js/build/index.js:20
-msgid "Connect your Google account and your Google Ads account to set up a paid Smart Shopping campaign."
+msgid "Connect your Google account and your Google Ads account to set up a paid Performance Max campaign."
 msgstr ""
 
 #: js/build/index.js:20
@@ -2770,9 +2792,8 @@ msgid "Create your paid campaign"
 msgstr ""
 
 #: js/build/index.js:22
-#: js/build/index.js:23
 #: js/build/index.js:24
-msgid "Paid Smart Shopping campaigns are automatically optimized for you by Google. <link>See what your ads will look like.</link>"
+msgid "Paid Performance Max campaigns are automatically optimized for you by Google. <link>See what your ads will look like.</link>"
 msgstr ""
 
 #: js/build/index.js:22
@@ -2838,22 +2859,6 @@ msgid "Pencil icon"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "We're having trouble loading this data. Try again later, or track your performance in Google Merchant Center."
-msgstr ""
-
-#: js/build/index.js:22
-msgid "Open Google Merchant Center"
-msgstr ""
-
-#: js/build/index.js:22
-msgid "We're having trouble loading this data. Try again later, or track your performance in Google Ads."
-msgstr ""
-
-#: js/build/index.js:22
-msgid "Open Google Ads"
-msgstr ""
-
-#: js/build/index.js:22
 msgid "Add paid campaign"
 msgstr ""
 
@@ -2866,11 +2871,11 @@ msgid "Create your first campaign"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "Performance (Paid Campaigns)"
+msgid "We're having trouble loading this data. Try again later, or track your performance in Google Merchant Center."
 msgstr ""
 
 #: js/build/index.js:22
-msgid "Performance (Free Listing)"
+msgid "Open Google Merchant Center"
 msgstr ""
 
 #: js/build/index.js:22
@@ -2889,8 +2894,24 @@ msgid "Free"
 msgstr ""
 
 #: js/build/index.js:22
+msgid "We're having trouble loading this data. Try again later, or track your performance in Google Ads."
+msgstr ""
+
+#: js/build/index.js:22
+msgid "Open Google Ads"
+msgstr ""
+
+#: js/build/index.js:22
 #: js/build/index.js:25
 msgid "Total Sales"
+msgstr ""
+
+#: js/build/index.js:22
+msgid "Performance (Free Listing)"
+msgstr ""
+
+#: js/build/index.js:22
+msgid "Performance (Paid Campaigns)"
 msgstr ""
 
 #: js/build/index.js:22
@@ -2906,11 +2927,11 @@ msgid "Drawing of a person who successfuly launched a campaign"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "You've set up a paid Smart Shopping Campaign!"
+msgid "You've set up a paid Performance Max Campaign!"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "You can pause or edit your campaign at any time. For best results, we recommend allowing your campaign to run for at least 14 days without pausing or editing. <link>Learn more about Smart Shopping technology.</link>"
+msgid "You can pause or edit your campaign at any time. For best results, we recommend allowing your campaign to run for at least 14 days without pausing or editing. <link>Learn more about Performance Max technology.</link>"
 msgstr ""
 
 #: js/build/index.js:22
@@ -2926,7 +2947,7 @@ msgid "Remove Campaign"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "Results typically improve with time with Google’s Smart Shopping campaigns. Removing a Smart Shopping campaign will result in the loss of any optimisations learned from those campaigns."
+msgid "Results typically improve with time with Google’s paid ad campaigns. Removing a paid ad campaign will result in the loss of any optimisations learned from those campaigns."
 msgstr ""
 
 #: js/build/index.js:22
@@ -2950,7 +2971,7 @@ msgid "Continue to edit"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "Results typically improve with time with Google’s Free Listing and Smart Shopping campaigns."
+msgid "Results typically improve with time with Google’s Free Listing and paid ad campaigns."
 msgstr ""
 
 #: js/build/index.js:22
@@ -2974,11 +2995,11 @@ msgid "Pause Campaign"
 msgstr ""
 
 #: js/build/index.js:22
-msgid "Results typically improve with time with Google’s Smart Shopping campaigns. If you pause, your products won’t be shown to people looking for what you offer."
+msgid "Results typically improve with time with Google’s paid ad campaigns. If you pause, your products won’t be shown to people looking for what you offer."
 msgstr ""
 
 #: js/build/index.js:22
-msgid "Pausing a Smart Shopping campaign will result in the loss of any optimisations learned from those campaigns."
+msgid "Pausing a paid ad campaign will result in the loss of any optimisations learned from those campaigns."
 msgstr ""
 
 #: js/build/index.js:22
@@ -3051,6 +3072,14 @@ msgstr ""
 
 #: js/build/index.js:23
 msgid "Edit your paid campaign"
+msgstr ""
+
+#: js/build/index.js:23
+msgid "Paid ad campaigns are automatically optimized for you by Google."
+msgstr ""
+
+#: js/build/index.js:23
+msgid "See what your ads will look like."
 msgstr ""
 
 #. translators: %s: campaign's name.
@@ -3462,6 +3491,14 @@ msgid "An error occurred while retrieving your product feed. Please try again la
 msgstr ""
 
 #: js/build/index.js:31
+msgid "Linked accounts"
+msgstr ""
+
+#: js/build/index.js:31
+msgid "A WordPress.com account, Google account, and Google Merchant Center account are required to use this extension in WooCommerce."
+msgstr ""
+
+#: js/build/index.js:31
 msgid "Disconnect all accounts"
 msgstr ""
 
@@ -3506,27 +3543,19 @@ msgid "Never mind"
 msgstr ""
 
 #: js/build/index.js:31
-msgid "Required"
-msgstr ""
-
-#: js/build/index.js:31
-msgid "Linked accounts"
-msgstr ""
-
-#: js/build/index.js:31
-msgid "A WordPress.com account, Google account, and Google Merchant Center account are required to use this extension in WooCommerce."
-msgstr ""
-
-#: js/build/index.js:31
-msgid "WordPress.com"
-msgstr ""
-
-#: js/build/index.js:31
-msgid "Google"
-msgstr ""
-
-#: js/build/index.js:31
 msgid "Disconnect Google Ads account only"
+msgstr ""
+
+#: js/build/index.js:31
+msgid "Disconnect from all accounts"
+msgstr ""
+
+#: js/build/index.js:31
+msgid "Your WordPress.com account has been disconnected."
+msgstr ""
+
+#: js/build/index.js:31
+msgid "Connect your WordPress.com account to ensure your products stay listed on Google. If you do not re-connect, your products can’t be automatically synced to Google, and any existing listings may be removed from Google."
 msgstr ""
 
 #: js/build/index.js:31
